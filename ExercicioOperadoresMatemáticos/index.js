@@ -22,3 +22,9 @@ console.log("A média é: ", media);
 
 console.log("-------------------------------------------------------");
 console.log("-------------------------------------------------------");
+
+let paraIncrementoNumero = Number(prompt("Digite o primeiro número: "));
+console.log("-------------------------------------------------------");
+console.log("Ação de incremento: ", paraIncrementoNumero++);
+console.log("Após o incremento: ", paraIncrementoNumero);
+console.log("Incremento imediato: ", ++paraIncrementoNumero);

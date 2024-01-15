@@ -28,9 +28,24 @@ if (pontuação > 75) {
     time,
     "fez",
     pontuação,
-    "de pontuação. Portanto tem chances baixas de se classificar."
+    "de pontuação. Portanto tem chances baixas de se classificar"
   );
 }
 
 console.log("--------------------------------------------------------");
 console.log("--------------------------------------------------------");
+
+let nomeJogador = prompt("Digite o nome do jogador: ");
+if (nomeJogador == "neymar") {
+  console.log("É o melhor jogador");
+} else {
+  console.log("Bom jogador");
+}
+
+console.log("--------------------------------------------------------");
+console.log("--------------------------------------------------------");
+
+let nomeJogador2 = prompt("Digite o nome do jogador: ");
+nomeJogador2 == "neymar"
+  ? console.log("É o melhor jogador")
+  : console.log("Bom jogador");

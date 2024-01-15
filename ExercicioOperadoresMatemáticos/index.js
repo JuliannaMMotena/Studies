@@ -7,6 +7,7 @@ let soma = primeiroNumero + segundoNumero + terceiroNumero;
 let subtração = primeiroNumero - segundoNumero - terceiroNumero;
 let multiplicacao = primeiroNumero * segundoNumero * terceiroNumero;
 console.log("-------------------------------------------------------");
+
 console.log("A soma é: ", soma);
 console.log("A subtração é: ", subtração);
 console.log("A multiplicação é: ", multiplicacao);

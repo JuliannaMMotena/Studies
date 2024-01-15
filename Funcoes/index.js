@@ -9,14 +9,14 @@ let primeiroNumero = Number(prompt("Digite o 1 número: "));
 let segundoNumero = Number(prompt("Digite o 2 número: "));
 let terceiroNumero = Number(prompt("Digite o 3 número: "));
 let quartoNumero = Number(prompt("Digite o 4 número: "));
-let resultado = calculaMedia(
+let resultadoMedia = calculaMedia(
   primeiroNumero,
   segundoNumero,
   terceiroNumero,
   quartoNumero
 );
 console.log("---------------------------------------------------");
-console.log("A média é: ", resultado);
+console.log("A média é: ", resultadoMedia);
 
 console.log("---------------------------------------------------");
 console.log("---------------------------------------------------");
@@ -29,3 +29,6 @@ function converte(n1) {
 let horas = Number(prompt("Digite a quantidade de horas: "));
 let resultadoConversao = converte(horas);
 console.log(horas, "hora(s) equivale(m) a", resultadoConversao, "minutos");
+
+console.log("---------------------------------------------------");
+console.log("---------------------------------------------------");

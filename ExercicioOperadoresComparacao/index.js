@@ -10,3 +10,5 @@ console.log("Os números inseridos são difentes: ", commparacao2);
 
 console.log("-------------------------------------------------------");
 console.log("-------------------------------------------------------");
+
+

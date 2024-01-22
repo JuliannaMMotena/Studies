@@ -1,5 +1,3 @@
-const { number } = require("yup");
-
 const prompt = require("prompt-sync")();
 
 const carro = new Object();
@@ -38,3 +36,22 @@ console.log("Ano: ", veiculo.ano);
 console.log("Cor: ", veiculo.cor);
 console.log("Valor: ", veiculo.valor);
 console.log("Valor das parcelas: ", veiculo.calcularFinanciamento(parcelas));
+
+console.log("-------------------------------------------------");
+console.log("-------------------------------------------------");
+
+const aluno = new Object();
+aluno.nome = prompt("Nome: ");
+aluno.matricula = prompt("Matrícula: ");
+aluno.media = function (nota1, nota2, nota3) {
+  return (nota1 + nota2 + nota3) / 3;
+};
+
+let nota1 = Number(prompt("Nota1: "));
+let nota2 = Number(prompt("Nota2: "));
+let nota3 = Number(prompt("Nota3: "));
+console.log("Média do aluno: ", aluno.media(nota1, nota2, nota3));
+
+console.log("-------------------------------------------------");
+console.log("-------------------------------------------------");
+

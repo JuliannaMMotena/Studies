@@ -15,7 +15,7 @@ console.log("O maior número digitado é o: ", maiorNumero);
 console.log("------------------------------------------------");
 console.log("------------------------------------------------");
 
-const carro = [];
+const carro = new Object();
 carro.ano = prompt("Ano: ");
 carro.marca = prompt("Marca: ");
 carro.modelo = prompt("Modelo: ");

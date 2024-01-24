@@ -1,9 +1,6 @@
 const prompt = require("prompt-sync")();
 
-function calculaMedia(n1, n2, n3, n4) {
-  let resultado = (n1 + n2 + n3 + n4) / 4;
-  return resultado;
-}
+const calculaMedia = (n1, n2, n3, n4) => (n1 + n2 + n3 + n4) / 4;
 
 let primeiroNumero = Number(prompt("Digite o 1 número: "));
 let segundoNumero = Number(prompt("Digite o 2 número: "));
